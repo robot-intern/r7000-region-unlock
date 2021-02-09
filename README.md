@@ -1,4 +1,9 @@
-# unlocking router regions on netgear r7000
+# unlocking router regions on netgear r7000 with stock firmware
+Unlocking your router region could allow you to broadcast wifi on additional channels. If you live in an apartment building with many wifi networks, this could reduce your wifi interference and give you better wifi performance.
+
+See: https://motorolacable.com/whitepapers/wifi-dfs
+
+Warning: don't broadcast on channels for which you are not authorized! DFS channels are also used by radar systems at airports, weather stations, and other government radar installations. You may cause interference if your router is located close to one of these installations.
 
 ## Downgrade firmware
 Netgear locked down the router's telnet server in later versions. Downgrade the router's firmware to V1.0.9.42_10.2.44. On this version, the telnet server was still accessible. Source (from the author of `nte`: https://community.netgear.com/t5/Nighthawk-WiFi-Routers/R7000-telnet-enable/m-p/1786880/highlight/true#M136303 )
